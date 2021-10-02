@@ -14,7 +14,7 @@ function xhrGet(url, callback) {
 mdui.confirm(''
         + '<div class="mdui-typo">'
         +     '<p>'
-        +         '使用本工具<strong>由微信公众号【哆啦A梦的闲暇时光】免费提供 </strong>。</a>'
+        +         '本工具<strong>由微信公众号【哆啦A梦的闲暇时光】免费提供 </strong>。</a>'
         +     '<p>本工具生成的截图，仅可用于<strong>个人应付各类强制要求转发朋友圈的情形</strong>，请勿<strong>批量生成截图</strong>或将截图用于<strong>造谣诽谤、微商宣传</strong>等非法或令人反感的用途，请勿用于商业用途，<strong>二次部署请勿删除原作者相关信息</strong>。</p>'
         +     '<p>当你生成截图时，你应该确定你可以接受向他人发送该截图将会带来的后果和影响，否则请不要使用本工具并离开当前页面。</p>'
         + '</div>',
