@@ -14,7 +14,7 @@ function xhrGet(url, callback) {
 mdui.confirm(''
         + '<div class="mdui-typo">'
         +     '<p>'
-        +         '使用本工具<strong>不需要强制关注任何公众号或转发任何内容到朋友圈</strong>。</a>'
+        +         '使用本工具<strong>由微信公众号【哆啦A梦的闲暇时光】免费提供 </strong>。</a>'
         +     '<p>本工具生成的截图，仅可用于<strong>个人应付各类强制要求转发朋友圈的情形</strong>，请勿<strong>批量生成截图</strong>或将截图用于<strong>造谣诽谤、微商宣传</strong>等非法或令人反感的用途，请勿用于商业用途，<strong>二次部署请勿删除原作者相关信息</strong>。</p>'
         +     '<p>当你生成截图时，你应该确定你可以接受向他人发送该截图将会带来的后果和影响，否则请不要使用本工具并离开当前页面。</p>'
         + '</div>',
@@ -37,7 +37,7 @@ if (inBlacklist) {
     mdui.alert(
         '你所访问的网站（' + location.hostname + '）由于在转载本工具时抹去了原作者相关信息，已被原作者列入黑名单。点击下方按钮将跳转到原作者自己部署的页面。',
         function () {
-            location.href = 'https://akarin.dev/WechatMomentScreenshot/';
+            location.href = 'https://dlamdxxsg.gitee.io/wxjp/';
             document.querySelector('.mdui-container').innerHTML = '';
         },
         {
@@ -509,7 +509,7 @@ document.getElementById('generate').addEventListener('click', function () {
             + '<div class="mdui-typo">'
             +     '<p>错误信息：</p>'
             +     '<pre>' + error + '</pre>'
-            +     '<p>你可以通过 <a href="https://github.com/pykygyq1/wxjp/issues" target="_blank">Issue</a> 向作者反馈 BUG～</p>'
+            +     '<p>你可以通过 <a href="https://gitee.com/dlamdxxsg/wxjp/issues" target="_blank">Issue</a> 向作者反馈 BUG～</p>'
             + '</div>',
             '生成失败'
         );
